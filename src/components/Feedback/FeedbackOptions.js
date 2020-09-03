@@ -14,6 +14,7 @@ const FeedbackOptions = ({ onLeaveFeedback }) => (
     </button>
   </>
 );
+
 FeedbackOptions.propTypes = {
   onLeaveFeedback: PropTypes.func.isRequired,
 };
